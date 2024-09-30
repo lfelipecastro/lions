@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lions Seminovos</title>
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="images/logo.ico">
+    <script src="auxiliar.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo" src="images/lionsLogo.png" alt="Logo da empresa">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Estoque</a></li>
+                    <li><a href="#">Financiamento</a></li>
+                    <li><a href="#">Pós-Venda</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Fipe</a></li>
+                </ul>
+            </nav>
+            <div class="btn-atendimento">
+                <a href="#">
+                    <button>Atendimento</button>
+                </a>
+            </div><!--botão-pesquisa-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-topo-site">
+                        <a href="#"><img id="imgBanner"src="images/topoSite.png" alt="Imagem Topo do Site"></a>
+                    </div>
+                </div><!--flex-img-topo-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="informacoes">
+            <div class="interface">
+                <div class="flex">
+                    <div class="informacoes-box">
+                        <i class="bi bi-cash-coin"></i>
+                        <h3>Ganhe uma renda extra</h3>
+                    </div><!--informacoes-box-1-->
+                    <div class="informacoes-box">
+                        <i class="bi bi-airplane"></i>
+                        <h3>Trabalhe de onde quiser</h3>
+                    </div><!--informacoes-box-2-->
+                    <div class="informacoes-box">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <h3>Lucro alto</h3>
+                    </div><!--informacoes-box-3-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--informacoes-->
+
+        <section class="banner">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-banner"></div>
+                        <img id="imgBannerDois" src="images/parceiros.png" alt="Parceiros">
+                    </div><!--img-banner-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--banner-->
+
+        <section class="informacoes-dois">
+            <div class="interface">
+                <div class="flex">
+                    <div class="informacoes-box-dois">
+                        <h3>Oportunidade única para quem deseja realmente mudar de vida</h3>
+                    </div><!--informacoes-box-dois-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--informacoes-->
+
+        <section class="categorias">
+            <div class="interface">
+                <div class="informacoes-box-dois"></div>
+                    <h3 id="titulo-categorias">Conheça nossas categorias</h3>
+                </div>
+                <div class="flex">                
+                    <div class="categorias-box" id="um">
+                        <img src="images/bronze.png" alt="Bronze">
+                        <h3>Bronze</h3>
+                    </div><!--categorias-box-->
+                    <div class="categorias-box" id="dois">
+                        <img src="images/prata.png" alt="Prata">
+                        <h3>Prata</h3>
+                    </div><!--informacoes-box-2-->
+                    <div class="categorias-box" id="tres">
+                        <img src="images/ouro.png" alt="Ouro">
+                        <h3>Ouro</h3>
+                    </div><!--informacoes-box-3-->
+                </div><!--flex-->
+                <div class="btn-geral">
+                    <a href="#">
+                        <button>Clique para saber mais</button>
+                    </a>
+                </div>
+            </div><!--interface-->
+        </section><!--categorias-->
+
+        <section class="pesquisa">
+            <div class="interface">
+                <div class="titulo-pesquisa"></div>
+                        <h3>Pesquise aqui as marcas ou modelos de carros que temos</h3>
+                </div>
+                
+                <input type="text" id="Input" onkeyup="myFunction()" placeholder="Pesquise aqui">
+
+                <ul id="Lista">
+                    <li><a href="#">Volkswagen - Virtus, Polo, Taos</a></li>
+                    <li><a href="#">Fiat - Uno, Siena, Toro, Fiorino</a></li>
+                    <li><a href="#">Hyundai - HB20, Creta, </a></li>
+                    <li><a href="#">Jeep - Renegade, Compass, Commander</a></li>
+                    <li><a href="#">Toyota - Corolla, Yaris Hatch, Hilux</a></li>
+                    <li><a href="#">Nissan - Sentra, Versa, Kicks, Leaf</a></li>
+                    <li><a href="#">Honda - City, Civic, CR-V</a></li>
+                </ul>
+            </div>
+        </section><!--pesquisa-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img class="logo" src="images/lionsLogo.png" alt="Logo Empresa">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/lionsseminovos"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/company/lions-seminovos/?originalSubdomain=br"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.facebook.com/lionsseminovos/?locale=pt_BR"><button><i class="bi bi-facebook"></i></button></a>
+                    </div>
+                </div>
+            </div><!--line-footer-->
+            <div class="line-footer-borda">
+                <div class="flex">
+                    <div class="rodape-contato">
+                        <i class="bi bi-envelope-fill"></i><a href="mailto:contato@lionsseminovos.com.br"> contato@lionsseminovos.com.br</a><br>
+                        <i class="bi bi-telephone-fill"></i><h4> 0800-454-0505</h4>
+                    </div>
+                    <div class="rodape-contato">
+                        <h3>Horário de Atendimento</h3>
+                        <h4>Segunda a Sexta das 9:00 às 22:00</h4>
+                        <h4>Sábado das 9:00 às 19:00</h4>
+                        <h4>Domingos das 9:00 às 18:00</h4>
+                    </div>
+                    <h5>©2024 por Lions Seminovos Comércio de Automóveis LTDA.</h5>
+                </div><!--flex-->
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</body>
+</html>
