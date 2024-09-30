@@ -11,7 +11,7 @@ Organização: Mantive um padrão de nomenclatura consistente, ajudando na legib
 **Como Rodar o Projeto**
 
 **Clonar o repositório:**
-git clone https://github.com/lfelipecastro/lions
+git clone https://github.com/lfelipecastro/lions.git
 
 **Instalar as dependências:**
 
@@ -32,7 +32,7 @@ Siga essas instruções e o projeto estará pronto para uso. Mas caso queira exe
 **1. Clonar o Repositório do GitHub**
 Primeiro, você precisa clonar o repositório no seu computador. Para isso, siga as etapas abaixo:
 
-- URL do repositório no GitHub: https://github.com/lfelipecastro/lions.
+- URL do repositório no GitHub: https://github.com/lfelipecastro/lions.git
   
 - Abra o terminal:
   - No Windows, use o Prompt de Comando, PowerShell ou Git Bash (É o que eu utilizo).
@@ -46,7 +46,7 @@ Primeiro, você precisa clonar o repositório no seu computador. Para isso, siga
 - Clone o repositório:
   No terminal, execute o seguinte comando:
 
-  git clone https://github.com/lfelipecastro/lions
+  git clone https://github.com/lfelipecastro/lions.git
 
 Isso fará o download de todos os arquivos do projeto do GitHub para o seu computador.
 
